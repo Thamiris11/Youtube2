@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/beercss@5.0.3/dist/cdn/beer.min.css"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/beercss@5.0.3/dist/cdn/beer.min.js"
+    ></script>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/material-dynamic-colors@1.1.4/dist/cdn/material-dynamic-colors.min.js"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube</title>
+    <link rel="stylesheet" href="estilo2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="light">
+    <header class="fill">
+      <nav>
+        <button class="circle transparent" data-ui="#menu">
+          <i>menu</i>
+        </button>
+        <img class="small" src="youtubelogo.png" />
+        <div class="field label suffix border round center">
+          <input type="text" />
+          <label>Label</label>
+          <i>search</i>
+        </div>
+        <button class="circle transparent max right-align">
+          <img class="responsive" src="user.png" />
+        </button>
+      </nav>
+
+      <div class="grid">
+        <div class="s6">
+          <div class="video">
+            <img class="img-video" src="capa1.png" class="" alt="" />
+            <div class="titulo-video">Get ready with Kylie Jenner</div>
+            <div class="caixa-user">
+              <img src="user.png" class="logo" />
+              <div class="descricao-user">
+                <p class="titulo">VOGUE</p>
+                <p class="descricao">inscritos 800K</p>
+              </div>
+              <button class="botao-inscr">INSCREVER-SE</button>
+            </div>
+          </div>
+        </div>
+        <div class="s6">
+          <div class="video">
+            <img class="img-video" src="capa3.png" class="" alt="" />
+            <div class="titulo-video">Vlog London University</div>
+            <div class="caixa-user">
+              <img src="user.png" class="logo" />
+              <div class="descricao-user">
+                 <p class="titulo">Mary Alex</p>
+                 <p class="descricao">inscritos 10K</p>
+               </div>
+               <button class="botao-inscr">INSCREVER-SE</button>
+            </div>
+          </div>
+        </div>
+        <div class="s6">
+          <div class="video">
+            <img class="img-video" src="capa6.png " class="" alt="" />
+            <div class="titulo-video">First vlog</div>
+            <div class="caixa-user">
+              <img src="user.png" class="logo" />
+              <div class="descricao-user">
+                 <p class="titulo">Ana Rose</p>
+                 <p class="descricao">inscritos 2K</p>
+               </div>
+               <button class="botao-inscr">INSCREVER-SE</button>
+            </div>
+          </div>
+        </div>
+        <div class="s6">
+          <div class="video">
+            <img class="img-video" src="capa4.png" class="" alt="" />
+            <div class="titulo-video">Study vlog: Aprendendo dois idiomas</div>
+            <div class="caixa-user">
+              <img src="user.png" class="logo" />
+              <div class="descricao-user">
+                 <p class="titulo">Maju idiomas </p>
+                 <p class="descricao">inscritos 8K</p>
+              </div>
+              <button class="botao-inscr">INSCREVER-SE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- modal-->
+      <dialog class="left" id="menu">
+        <header>
+          <nav>
+            <img class="circle large" src="user.png" />
+            <h6 class="max">Menu</h6>
+            <button class="transparent circle large" data-ui="#menu">
+              <i>close</i>
+            </button>
+          </nav>
+        </header>
+        <div class="space"></div>
+        <ul class="list">
+          <li class="wave round">
+            <i class="fa-solid fa-house"></i>
+            <span class="max">Inicio</span>
+            <b>24</b>
+          </li>
+          <li class="wave round">
+            <i>send</i>
+            <span>Shorts</span>
+          </li>
+          <li class="wave round">
+            <i>favorite</i>
+            <span>Inscrições</span>
+          </li>
+          <li class="wave round">
+            <i class="fa-solid fa-face-smile"></i>
+            <span>Você</span>
+          </li>
+          <li class="wave round">
+            <i class="fa-solid fa-rotate-right"></i>
+            <span>Historico</span>
+          </li>
+        </ul>
+      </dialog>
+    </header>
+  </body>
+</html>
